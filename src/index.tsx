@@ -170,6 +170,7 @@ export default function DynamicSizeList<T, MemoState>(props: DynamicSizeListProp
         <DynamicListContext.Provider value={{ setSize }}>
             <PatchedVariableSizeList
                 ref={listRef}
+                innerRef={props.innerRef}
                 width={props.width}
                 height={props.height}
                 itemCount={props.itemData.length}
