@@ -1,6 +1,6 @@
 {
   "name": "react-window-dynamic-size-list",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dynamically measured cells for React Window",
   "author": "EricRabil",
   "license": "MIT",
